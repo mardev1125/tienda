@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Geek Store</h1>
+    </div>
+    <div class="container">
+        <div class="add-product">
+            <h2>Agregar un Producto</h2>
+            <input type="text" id="product-title" placeholder="Product Title">
+            <input type="number" id="product-price" placeholder="Product Price">
+            <textarea id="product-description" placeholder="Product Description" rows="3"></textarea>
+            <input type="text" id="product-image" placeholder="Product Image URL">
+            <input type="text" id="product-category" placeholder="Product Category">
+            <button onclick="addProduct()">Add Product</button>
+        </div>
+        <div id="categories-container">
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
